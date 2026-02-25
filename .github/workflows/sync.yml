@@ -2,7 +2,7 @@ name: Sync data.json
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 每小时自动查询更新
+    - cron: '0 0 * * *'   # 每天0点自动查询更新
   workflow_dispatch:
 
 permissions:
