@@ -2,7 +2,7 @@ name: 删除workflow，清理工作流
 
 on:
   schedule:
-    - cron: 59 23 * * *
+    - cron: 55 23 * * *
   workflow_dispatch:
 
 jobs:
