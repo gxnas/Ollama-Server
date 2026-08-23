@@ -1,5 +1,21 @@
 [
   {
+    "server": "http://54.70.209.48:11434",
+    "models": [
+      "llama3.2:latest",
+      "llama3-backup:latest",
+      "deepseek-r1:1.5b",
+      "llama3.2:3b-instruct-q5_K_M",
+      "llama3.1:8b-instruct-q4_K_M",
+      "llama2:latest",
+      "llama3.2-vision:latest",
+      "qwen2.5-coder:latest"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.419Z",
+    "status": "success"
+  },
+  {
     "server": "http://35.208.160.35:11434",
     "models": [
       "probe-nonexistent:latest",
@@ -8,7 +24,7 @@
       "huihui_ai/qwen3-abliterated:latest"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.057Z",
+    "lastUpdate": "2026-08-23T00:31:15.513Z",
     "status": "success"
   },
   {
@@ -24,23 +40,43 @@
       "mistral:latest"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.068Z",
+    "lastUpdate": "2026-08-23T00:31:15.543Z",
     "status": "success"
   },
   {
-    "server": "http://54.70.209.48:11434",
+    "server": "http://211.104.171.186:11434",
     "models": [
-      "llama3.2:latest",
-      "llama3-backup:latest",
-      "deepseek-r1:1.5b",
-      "llama3.2:3b-instruct-q5_K_M",
-      "llama3.1:8b-instruct-q4_K_M",
-      "llama2:latest",
-      "llama3.2-vision:latest",
-      "qwen2.5-coder:latest"
+      "nomic-embed-text:latest",
+      "nomic-embed-text-v2-moe:latest",
+      "qwen3-embedding:0.6b",
+      "huihui_ai/Qwen3.8-abliterated:latest",
+      "gemma4:e4b",
+      "verif_sys:latest",
+      "gpt-4o:latest",
+      "claude-3-opus:latest",
+      "gpt-4:latest",
+      "tinyllama:latest",
+      "qwen3.6:27b",
+      "kimi-k2.7-code:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.2:cloud",
+      "glm-4.7:cloud",
+      "glm-5.2:cloud",
+      "minimax-m3:cloud",
+      "deepseek-v4-flash:cloud",
+      "glm-5.1:cloud",
+      "minimax-m2.5:cloud",
+      "minimax-m2.7:cloud",
+      "benedict/linkbricks-llama3.1-korean:8b",
+      "bge-m3:latest",
+      "deepseek-v4-pro:cloud",
+      "qwen3.6:latest",
+      "qwen3.6:35b",
+      "llama3.2:3b",
+      "deepseek-r1:1.5b"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.099Z",
+    "lastUpdate": "2026-08-23T00:31:15.638Z",
     "status": "success"
   },
   {
@@ -71,53 +107,13 @@
       "llama3.1:8b"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.229Z",
-    "status": "success"
-  },
-  {
-    "server": "http://5.9.86.204",
-    "models": [
-      "nomic-embed-text:latest",
-      "nomic-embed-text-v2-moe:latest",
-      "huihui_ai/gemma-4-abliterated:12b",
-      "huihui_ai/gpt-oss-abliterated:latest",
-      "dengcao/Qwen3-Reranker-0.6B:Q8_0",
-      "Krakekai/qwen3-reranker-8b:latest",
-      "hans-tech/bge-reranker-v2-m3:260522",
-      "huihui_ai/Qwen3.8-abliterated:latest",
-      "qwen2:latest",
-      "gpt-4o:latest",
-      "claude-3-opus:latest",
-      "gpt-4:latest",
-      "verif_sys:latest",
-      "tinyllama:latest",
-      "hf.co/INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF:Q4_K_M",
-      "smollm2:135m",
-      "ilsp/meltemi-instruct:latest",
-      "llama3.2:3b",
-      "mistral:latest"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.248Z",
+    "lastUpdate": "2026-08-23T00:31:15.699Z",
     "status": "success"
   },
   {
     "server": "http://5.9.86.204:11434",
     "models": [
-      "nomic-embed-text:latest",
-      "huihui_ai/gemma-4-abliterated:12b",
       "nomic-embed-text-v2-moe:latest",
-      "huihui_ai/gpt-oss-abliterated:latest",
-      "dengcao/Qwen3-Reranker-0.6B:Q8_0",
-      "Krakekai/qwen3-reranker-8b:latest",
-      "hans-tech/bge-reranker-v2-m3:260522",
-      "huihui_ai/Qwen3.8-abliterated:latest",
-      "qwen2:latest",
-      "gpt-4o:latest",
-      "claude-3-opus:latest",
-      "gpt-4:latest",
-      "verif_sys:latest",
-      "tinyllama:latest",
       "hf.co/INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF:Q4_K_M",
       "smollm2:135m",
       "ilsp/meltemi-instruct:latest",
@@ -125,37 +121,90 @@
       "mistral:latest"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.249Z",
+    "lastUpdate": "2026-08-23T00:31:15.705Z",
     "status": "success"
   },
   {
-    "server": "http://152.70.29.177:11434",
+    "server": "http://5.9.86.204",
     "models": [
-      "pwn-6276e055:latest",
-      "gpt-4o:latest",
-      "claude-3-opus:latest",
-      "gpt-4:latest",
-      "sys_aux_6771:latest",
-      "tinyllama:latest",
-      "verif_sys:latest",
+      "nomic-embed-text-v2-moe:latest",
+      "hf.co/INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF:Q4_K_M",
+      "smollm2:135m",
+      "ilsp/meltemi-instruct:latest",
+      "llama3.2:3b",
+      "mistral:latest"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.708Z",
+    "status": "success"
+  },
+  {
+    "server": "http://144.76.238.176:11434",
+    "models": [
+      "nomic-embed-text-v2-moe:latest-copy-test",
+      "huihui_ai/gemma-4-abliterated:12b",
+      "nomic-embed-text-v2-moe:latest",
+      "mistral-medium-3.5:latest",
+      "huihui_ai/gpt-oss-abliterated:latest",
+      "huihui_ai/qwen3.5-abliterated:27b",
+      "laguna-s-2.1:latest",
+      "huihui_ai/gemma-4-abliterated:26b",
+      "huihui_ai/glm-4.7-flash-abliterated:latest",
+      "nomic-embed-text:latest",
+      "huihui_ai/qwen3.6-abliterated:27b",
+      "huihui_ai/Qwen3.8-abliterated:latest",
+      "laguna-xs-2.1:latest",
       "qwen3.6:27b",
+      "qwen3.6:35b",
+      "llama3.2:3b",
+      "llama3.1:8b",
+      "llama3.1:8b-instruct-q4_K_M"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.703Z",
+    "status": "success"
+  },
+  {
+    "server": "http://144.76.221.151:11434",
+    "models": [
+      "laguna-s-2.1:latest",
+      "nomic-embed-text-v2-moe:latest",
+      "huihui_ai/gemma-4-abliterated:12b",
+      "nomic-embed-text:latest",
+      "qwen3-embedding:0.6b",
+      "mistral-medium-3.5:latest",
+      "huihui_ai/glm-4.7-flash-abliterated:latest",
+      "huihui_ai/gpt-oss-abliterated:latest",
+      "huihui_ai/qwen3.5-abliterated:27b",
+      "huihui_ai/qwen3.6-abliterated:27b",
+      "huihui_ai/gemma-4-abliterated:26b",
+      "llama3.2:latest",
+      "verif_sys:latest",
+      "laguna-xs-2.1:latest",
+      "qwen3.6:27b",
+      "kimi-k2.7-code:cloud",
+      "glm-5.1:cloud",
+      "glm-5.2:cloud",
+      "glm-4.7:cloud",
+      "minimax-m3:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v3.2:cloud",
+      "minimax-m2.5:cloud",
+      "deepseek-v4-flash:cloud",
+      "minimax-m2.7:cloud",
+      "tinyllama:latest",
       "smollm2:135m",
       "llama3.2:3b",
-      "gemma3:270m"
+      "llama3:latest",
+      "granite4:latest",
+      "gemma3:latest",
+      "mario:latest",
+      "llama3-backup:latest",
+      "gemma3:12b",
+      "deepseek-r1:14b"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.268Z",
-    "status": "success"
-  },
-  {
-    "server": "http://35.75.132.147",
-    "models": [
-      "qwen3.6:27b",
-      "llama3.2:3b",
-      "llama3.2:3b-instruct-q5_K_M"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.263Z",
+    "lastUpdate": "2026-08-23T00:31:15.709Z",
     "status": "success"
   },
   {
@@ -166,75 +215,21 @@
       "smollm2:135m"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.465Z",
-    "status": "success"
-  },
-  {
-    "server": "http://123.56.253.101:11001",
-    "models": [
-      "gemini-3-pro-preview:latest",
-      "llama3.2:3b-instruct-q5_K_M",
-      "deepseek-r1:1.5b"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.466Z",
-    "status": "success"
-  },
-  {
-    "server": "http://185.209.113.184:11434",
-    "models": [
-      "huihui_ai/gemma-4-abliterated:12b",
-      "nomic-embed-text:latest",
-      "nomic-embed-text-v2-moe:latest",
-      "hf.co/INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF:Q4_K_M",
-      "smollm2:135m",
-      "deepseek-coder:latest",
-      "deepseek-coder-v2:latest",
-      "qwen2.5:latest"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.301Z",
-    "status": "success"
-  },
-  {
-    "server": "http://ai-api.storage-mart.com",
-    "models": [
-      "all-minilm:l6-v2",
-      "glm-5.2:cloud",
-      "kimi-k3:cloud",
-      "qwen3.6:27b",
-      "qwen2.5-coder:32b"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.689Z",
-    "status": "success"
-  },
-  {
-    "server": "http://108.61.191.180:7869",
-    "models": [
-      "hf.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF:latest",
-      "hf.co/LocoreMind/LocoOperator-4B-GGUF:Q6_K",
-      "nanbeige-custom:latest",
-      "hf.co/mradermacher/Nanbeige4.1-3B-GGUF:Q8_0",
-      "llama3:8b",
-      "nomic-embed-text:latest"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.053Z",
+    "lastUpdate": "2026-08-23T00:31:15.786Z",
     "status": "success"
   },
   {
     "server": "http://65.108.237.114:11434",
     "models": [
+      "mistral-medium-3.5:latest",
+      "nomic-embed-text:latest",
+      "huihui_ai/qwen3.5-abliterated:27b",
+      "nomic-embed-text-v2-moe:latest",
       "huihui_ai/gemma-4-abliterated:12b",
+      "huihui_ai/gemma-4-abliterated:26b",
+      "huihui_ai/glm-4.7-flash-abliterated:latest",
       "huihui_ai/gpt-oss-abliterated:latest",
       "huihui_ai/qwen3.6-abliterated:27b",
-      "huihui_ai/qwen3.5-abliterated:27b",
-      "mistral-medium-3.5:latest",
-      "nomic-embed-text-v2-moe:latest",
-      "huihui_ai/glm-4.7-flash-abliterated:latest",
-      "nomic-embed-text:latest",
-      "huihui_ai/gemma-4-abliterated:26b",
       "huihui_ai/Qwen3.8-abliterated:latest",
       "xd-test-1786786786:latest",
       "llama3.2:latest",
@@ -249,7 +244,80 @@
       "llama3.1:8b"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.289Z",
+    "lastUpdate": "2026-08-23T00:31:15.747Z",
+    "status": "success"
+  },
+  {
+    "server": "http://123.56.253.101:11001",
+    "models": [
+      "gemini-3-pro-preview:latest",
+      "llama3.2:3b-instruct-q5_K_M",
+      "deepseek-r1:1.5b"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.790Z",
+    "status": "success"
+  },
+  {
+    "server": "http://185.209.113.184:11434",
+    "models": [
+      "huihui_ai/gemma-4-abliterated:26b",
+      "nomic-embed-text-v2-moe:latest",
+      "huihui_ai/gemma-4-abliterated:12b",
+      "nomic-embed-text:latest",
+      "hf.co/INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF:Q4_K_M",
+      "smollm2:135m",
+      "deepseek-coder:latest",
+      "deepseek-coder-v2:latest",
+      "qwen2.5:latest"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.749Z",
+    "status": "success"
+  },
+  {
+    "server": "https://llm.zenithmedia.io",
+    "models": [
+      "huihui_ai/qwen3-vl-abliterated:4b-instruct",
+      "huihui_ai/qwen3-vl-abliterated:4b-thinking-q4_K_M",
+      "hf.co/mradermacher/Hermes-4-14B-BF16-abliterated-GGUF:Q4_K_M",
+      "hermes3:8b",
+      "hf.co/brunopio/Qwen3.5-14B-A3B-Claude-4.6-Opus-Reasoning-Distilled-reap-Q4_K_M-GGUF:latest",
+      "qwen3:4b",
+      "qwen3:14b",
+      "minimax-m3:cloud",
+      "deepseek-v4-flash:cloud",
+      "qwen3.5:cloud",
+      "qwen3-coder-next:cloud",
+      "kimi-k2.6:cloud",
+      "deepseek-v4-pro:cloud",
+      "kimi-k2.5:cloud",
+      "minimax-m2.1:cloud",
+      "glm-4.7:cloud",
+      "glm-5.1:cloud",
+      "kimi-k2-thinking:cloud",
+      "minimax-m2:cloud",
+      "deepseek-v3.2:cloud",
+      "glm-5:cloud",
+      "nemotron-3-super:cloud",
+      "glm-4.6:cloud",
+      "minimax-m2.5:cloud",
+      "gemini-3-flash-preview:cloud",
+      "minimax-m2.7:cloud",
+      "qwen3-next:80b-cloud",
+      "qwen3.6:35b",
+      "qwen3.5:27b",
+      "qwen3.5:latest",
+      "gpt-oss:20b",
+      "deepseek-r1:8b",
+      "deepseek-r1:7b",
+      "qwen3:8b",
+      "phi4-mini:latest",
+      "llama3.2:3b",
+      "gemma3:4b"
+    ],
+    "tps": 82.39762046219,
+    "lastUpdate": "2026-08-23T00:31:15.788Z",
     "status": "success"
   },
   {
@@ -262,82 +330,7 @@
       "granite4:latest"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.058Z",
-    "status": "success"
-  },
-  {
-    "server": "http://141.223.121.73:11434",
-    "models": [
-      "huihui_ai/glm-4.7-flash-abliterated:latest",
-      "huihui_ai/gemma-4-abliterated:26b",
-      "huihui_ai/qwen3.6-abliterated:27b",
-      "nomic-embed-text:latest",
-      "huihui_ai/gpt-oss-abliterated:latest",
-      "huihui_ai/qwen3.5-abliterated:27b",
-      "qwen3-embedding:0.6b",
-      "huihui_ai/gemma-4-abliterated:12b",
-      "nomic-embed-text-v2-moe:latest",
-      "huihui_ai/Qwen3.8-abliterated:latest",
-      "verif_sys:latest",
-      "gpt-oss:120b-cloud",
-      "qwen3.6:27b",
-      "kimi-k2.7-code:cloud",
-      "deepseek-v4-flash:cloud",
-      "kimi-k2.6:cloud",
-      "glm-5.1:cloud",
-      "minimax-m2.7:cloud",
-      "deepseek-v3.2:cloud",
-      "minimax-m2.5:cloud",
-      "minimax-m3:cloud",
-      "glm-4.7:cloud",
-      "glm-5.2:cloud",
-      "deepseek-v4-pro:cloud"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.318Z",
-    "status": "success"
-  },
-  {
-    "server": "https://ai.kodiko.gr",
-    "models": [
-      "nomic-embed-text:latest",
-      "huihui_ai/gemma-4-abliterated:12b",
-      "huihui_ai/gpt-oss-abliterated:latest",
-      "nomic-embed-text-v2-moe:latest",
-      "dengcao/Qwen3-Reranker-0.6B:Q8_0",
-      "Krakekai/qwen3-reranker-8b:latest",
-      "hans-tech/bge-reranker-v2-m3:260522",
-      "huihui_ai/Qwen3.8-abliterated:latest",
-      "qwen2:latest",
-      "gpt-4o:latest",
-      "claude-3-opus:latest",
-      "gpt-4:latest",
-      "verif_sys:latest",
-      "tinyllama:latest",
-      "hf.co/INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF:Q4_K_M",
-      "smollm2:135m",
-      "ilsp/meltemi-instruct:latest",
-      "llama3.2:3b",
-      "mistral:latest"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.782Z",
-    "status": "success"
-  },
-  {
-    "server": "http://18.138.138.6:11434",
-    "models": [
-      "hf.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF:IQ4_XS",
-      "qwen3:14b",
-      "gemma3:270m",
-      "mattw/pygmalion:latest",
-      "llama3-backup:latest",
-      "mario:latest",
-      "llama3.2:latest",
-      "qwen3:8b"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.387Z",
+    "lastUpdate": "2026-08-23T00:31:15.534Z",
     "status": "success"
   },
   {
@@ -345,19 +338,100 @@
     "models": [
       "qllama/bge-reranker-v2-m3:latest",
       "bge-m3:latest",
-      "qwen2.5vl:3b",
+      "granite3.2-vision:2b",
       "qwen2.5vl:7b",
-      "qwen3:14b",
-      "qwen3:8b",
-      "gemma3:1b",
+      "qwen2.5vl:3b",
       "gemma3:4b",
+      "openbmb/minicpm-o2.6:8b",
+      "deepseek-r1:8b",
+      "qwen3:4b",
+      "qwen3:8b",
+      "gemma3:12b",
       "bge-m3:567m",
-      "granite3.2:8b",
-      "phi4:14b",
-      "granite3.1-dense:8b"
+      "granite3.2:8b"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:22.414Z",
+    "lastUpdate": "2026-08-23T00:31:16.559Z",
+    "status": "success"
+  },
+  {
+    "server": "http://52.29.145.105:11434",
+    "models": [
+      "llama3.2:3b-instruct-q5_K_M",
+      "llama3.1:8b-instruct-q4_K_M",
+      "llama3.1:8b",
+      "jina/jina-embeddings-v2-base-en:latest",
+      "deepseek-r1:1.5b"
+    ],
+    "tps": 65.53398058252426,
+    "lastUpdate": "2026-08-23T00:31:15.686Z",
+    "status": "success"
+  },
+  {
+    "server": "https://ai.kodiko.gr",
+    "models": [
+      "nomic-embed-text-v2-moe:latest",
+      "hf.co/INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF:Q4_K_M",
+      "smollm2:135m",
+      "ilsp/meltemi-instruct:latest",
+      "llama3.2:3b",
+      "mistral:latest"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:16.187Z",
+    "status": "success"
+  },
+  {
+    "server": "http://ai-api.storage-mart.com",
+    "models": [
+      "huihui_ai/Qwen3.8-abliterated:latest",
+      "all-minilm:l6-v2",
+      "glm-5.2:cloud",
+      "kimi-k3:cloud",
+      "qwen3.6:27b",
+      "qwen2.5-coder:32b"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.881Z",
+    "status": "success"
+  },
+  {
+    "server": "http://49.7.60.132:11434",
+    "models": [
+      "huihui_ai/Qwen3.8-abliterated:latest",
+      "qwen3.6:27b",
+      "llama3.2:3b",
+      "smollm2:135m",
+      "deepseek-r1:1.5b",
+      "deepseek-r1:7b"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.830Z",
+    "status": "success"
+  },
+  {
+    "server": "http://108.61.191.180:7869",
+    "models": [
+      "hf.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF:latest",
+      "hf.co/LocoreMind/LocoOperator-4B-GGUF:Q6_K",
+      "nanbeige-custom:latest",
+      "hf.co/mradermacher/Nanbeige4.1-3B-GGUF:Q8_0",
+      "llama3:8b",
+      "nomic-embed-text:latest"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.526Z",
+    "status": "success"
+  },
+  {
+    "server": "http://152.70.29.177:11434",
+    "models": [
+      "smollm2:135m",
+      "llama3.2:3b",
+      "gemma3:270m"
+    ],
+    "tps": 49.42408583975229,
+    "lastUpdate": "2026-08-23T00:31:15.690Z",
     "status": "success"
   },
   {
@@ -375,7 +449,7 @@
       "qwen3-coder:30b"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.070Z",
+    "lastUpdate": "2026-08-23T00:31:15.441Z",
     "status": "success"
   },
   {
@@ -394,7 +468,7 @@
       "llama3:latest"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.051Z",
+    "lastUpdate": "2026-08-23T00:31:15.536Z",
     "status": "success"
   },
   {
@@ -408,21 +482,17 @@
       "llama3:latest",
       "mistral:latest"
     ],
-    "tps": 14.804907165316076,
-    "lastUpdate": "2026-08-22T00:28:21.047Z",
+    "tps": 14.86973098935469,
+    "lastUpdate": "2026-08-23T00:31:15.502Z",
     "status": "success"
   },
   {
-    "server": "http://52.29.145.105:11434",
+    "server": "http://54.234.120.87:11434",
     "models": [
-      "llama3.2:3b-instruct-q5_K_M",
-      "llama3.1:8b-instruct-q4_K_M",
-      "llama3.1:8b",
-      "jina/jina-embeddings-v2-base-en:latest",
-      "deepseek-r1:1.5b"
+      "gemma3n:latest"
     ],
-    "tps": 69.4980694980695,
-    "lastUpdate": "2026-08-22T00:28:21.229Z",
+    "tps": 11.668579856095434,
+    "lastUpdate": "2026-08-23T00:31:15.524Z",
     "status": "success"
   },
   {
@@ -435,12 +505,57 @@
       "mistral:latest"
     ],
     "tps": 61.19011224487385,
-    "lastUpdate": "2026-08-22T00:28:23.032Z",
+    "lastUpdate": "2026-08-23T00:31:17.480Z",
+    "status": "success"
+  },
+  {
+    "server": "http://85.159.213.166:9089",
+    "models": [
+      "deepseek-r1:latest",
+      "llama3:8b-text-q4_K_S",
+      "qwen:latest",
+      "llama3:latest",
+      "mistral:latest"
+    ],
+    "tps": 61.19011224487385,
+    "lastUpdate": "2026-08-23T00:31:17.665Z",
+    "status": "success"
+  },
+  {
+    "server": "http://85.159.213.195:9089",
+    "models": [
+      "deepseek-r1:latest",
+      "llama3:8b-text-q4_K_S",
+      "qwen:latest",
+      "llama3:latest",
+      "mistral:latest"
+    ],
+    "tps": 61.19011224487385,
+    "lastUpdate": "2026-08-23T00:31:17.669Z",
+    "status": "success"
+  },
+  {
+    "server": "http://172.105.122.66:7547",
+    "models": [
+      "deepseek-r1:latest",
+      "llama3:8b-text-q4_K_S",
+      "qwen:latest",
+      "llama3:latest",
+      "mistral:latest"
+    ],
+    "tps": 61.19011224487385,
+    "lastUpdate": "2026-08-23T00:31:17.715Z",
     "status": "success"
   },
   {
     "server": "http://124.43.17.208:11434",
     "models": [
+      "huihui_ai/glm-4.7-flash-abliterated:latest-copy-test-copy-test",
+      "huihui_ai/gemma-4-abliterated:26b-copy-test-copy-test",
+      "huihui_ai/qwen3.5-abliterated:27b-copy-test-copy-test",
+      "huihui_ai/qwen3.5-abliterated:27b-copy-test",
+      "huihui_ai/gemma-4-abliterated:26b-copy-test",
+      "huihui_ai/glm-4.7-flash-abliterated:latest-copy-test",
       "huihui_ai/glm-4.7-flash-abliterated:latest",
       "huihui_ai/gemma-4-abliterated:26b",
       "huihui_ai/qwen3.5-abliterated:27b",
@@ -455,118 +570,7 @@
       "smollm2:135m"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.495Z",
-    "status": "success"
-  },
-  {
-    "server": "http://85.159.213.166:9089",
-    "models": [
-      "deepseek-r1:latest",
-      "llama3:8b-text-q4_K_S",
-      "qwen:latest",
-      "llama3:latest",
-      "mistral:latest"
-    ],
-    "tps": 61.19011224487385,
-    "lastUpdate": "2026-08-22T00:28:23.210Z",
-    "status": "success"
-  },
-  {
-    "server": "http://85.159.213.195:9089",
-    "models": [
-      "deepseek-r1:latest",
-      "llama3:8b-text-q4_K_S",
-      "qwen:latest",
-      "llama3:latest",
-      "mistral:latest"
-    ],
-    "tps": 61.19011224487385,
-    "lastUpdate": "2026-08-22T00:28:23.211Z",
-    "status": "success"
-  },
-  {
-    "server": "http://172.105.122.66:7547",
-    "models": [
-      "deepseek-r1:latest",
-      "llama3:8b-text-q4_K_S",
-      "qwen:latest",
-      "llama3:latest",
-      "mistral:latest"
-    ],
-    "tps": 61.19011224487385,
-    "lastUpdate": "2026-08-22T00:28:23.393Z",
-    "status": "success"
-  },
-  {
-    "server": "http://3.17.61.100:11434",
-    "models": [
-      "llama3.1:8b",
-      "llama3.2:3b-instruct-q5_K_M",
-      "llama2:latest",
-      "llama3.2-vision:latest"
-    ],
-    "tps": 40.0890868596882,
-    "lastUpdate": "2026-08-22T00:28:21.055Z",
-    "status": "success"
-  },
-  {
-    "server": "https://llm.zenithmedia.io",
-    "models": [
-      "huihui_ai/qwen3-vl-abliterated:4b-instruct",
-      "huihui_ai/qwen3-vl-abliterated:4b-thinking-q4_K_M",
-      "hf.co/mradermacher/Hermes-4-14B-BF16-abliterated-GGUF:Q4_K_M",
-      "hermes3:8b",
-      "hf.co/brunopio/Qwen3.5-14B-A3B-Claude-4.6-Opus-Reasoning-Distilled-reap-Q4_K_M-GGUF:latest",
-      "qwen3:4b",
-      "qwen3:14b",
-      "minimax-m3:cloud",
-      "deepseek-v4-flash:cloud",
-      "kimi-k2.6:cloud",
-      "deepseek-v4-pro:cloud",
-      "qwen3-coder-next:cloud",
-      "kimi-k2.5:cloud",
-      "qwen3.5:cloud",
-      "glm-4.7:cloud",
-      "kimi-k2-thinking:cloud",
-      "minimax-m2:cloud",
-      "nemotron-3-super:cloud",
-      "deepseek-v3.2:cloud",
-      "glm-5:cloud",
-      "glm-5.1:cloud",
-      "minimax-m2.1:cloud",
-      "gemini-3-flash-preview:cloud",
-      "minimax-m2.5:cloud",
-      "glm-4.6:cloud",
-      "minimax-m2.7:cloud",
-      "qwen3-next:80b-cloud",
-      "qwen3.6:35b",
-      "qwen3.5:27b",
-      "qwen3.5:latest",
-      "gpt-oss:20b",
-      "deepseek-r1:8b",
-      "deepseek-r1:7b",
-      "qwen3:8b",
-      "phi4-mini:latest",
-      "llama3.2:3b",
-      "gemma3:4b"
-    ],
-    "tps": 80.85792123142947,
-    "lastUpdate": "2026-08-22T00:28:21.154Z",
-    "status": "success"
-  },
-  {
-    "server": "http://78.46.88.135:8080",
-    "models": [
-      "huihui_ai/Qwen3.8-abliterated:latest",
-      "glm-5.2:cloud",
-      "gemma4:31b",
-      "qwen3.6:27b",
-      "qwen3.6:35b",
-      "llama3.2:3b",
-      "gemma3:27b-it-q4_K_M"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.247Z",
+    "lastUpdate": "2026-08-23T00:31:15.887Z",
     "status": "success"
   },
   {
@@ -578,8 +582,18 @@
       "llama3.2:3b-instruct-q5_K_M",
       "llama3.2:latest"
     ],
-    "tps": 13.986013986013985,
-    "lastUpdate": "2026-08-22T00:28:21.102Z",
+    "tps": 13.996889580093312,
+    "lastUpdate": "2026-08-23T00:31:15.420Z",
+    "status": "success"
+  },
+  {
+    "server": "http://152.67.195.0:11434",
+    "models": [
+      "llama3.2:3b",
+      "llama2:latest"
+    ],
+    "tps": 4.59652706843718,
+    "lastUpdate": "2026-08-23T00:31:15.661Z",
     "status": "success"
   },
   {
@@ -588,17 +602,8 @@
       "llama3.2:latest",
       "llama3.2:3b"
     ],
-    "tps": 12.401054765650354,
-    "lastUpdate": "2026-08-22T00:28:21.444Z",
-    "status": "success"
-  },
-  {
-    "server": "http://221.179.69.35:49434",
-    "models": [
-      "crosery/sakura-14b-qwen2.5-v1.0-q6k:latest"
-    ],
-    "tps": 25.84757751481716,
-    "lastUpdate": "2026-08-22T00:28:21.445Z",
+    "tps": 12.863479104574482,
+    "lastUpdate": "2026-08-23T00:31:15.824Z",
     "status": "success"
   },
   {
@@ -614,16 +619,39 @@
       "deepseek-coder:latest"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.308Z",
+    "lastUpdate": "2026-08-23T00:31:15.770Z",
     "status": "success"
   },
   {
-    "server": "http://54.234.120.87:11434",
+    "server": "http://141.223.121.73:11434",
     "models": [
-      "gemma3n:latest"
+      "huihui_ai/gpt-oss-abliterated:latest",
+      "qwen3-embedding:0.6b",
+      "nomic-embed-text:latest",
+      "huihui_ai/gemma-4-abliterated:26b",
+      "huihui_ai/qwen3.5-abliterated:27b",
+      "huihui_ai/qwen3.6-abliterated:27b",
+      "nomic-embed-text-v2-moe:latest",
+      "huihui_ai/gemma-4-abliterated:12b",
+      "huihui_ai/glm-4.7-flash-abliterated:latest",
+      "huihui_ai/Qwen3.8-abliterated:latest",
+      "verif_sys:latest",
+      "gpt-oss:120b-cloud",
+      "qwen3.6:27b",
+      "kimi-k2.7-code:cloud",
+      "minimax-m2.5:cloud",
+      "deepseek-v3.2:cloud",
+      "glm-5.1:cloud",
+      "minimax-m3:cloud",
+      "deepseek-v4-flash:cloud",
+      "glm-4.7:cloud",
+      "kimi-k2.6:cloud",
+      "minimax-m2.7:cloud",
+      "glm-5.2:cloud",
+      "deepseek-v4-pro:cloud"
     ],
-    "tps": 11.070188276676841,
-    "lastUpdate": "2026-08-22T00:28:21.059Z",
+    "tps": 60.458904948871606,
+    "lastUpdate": "2026-08-23T00:31:15.649Z",
     "status": "success"
   },
   {
@@ -631,22 +659,27 @@
     "models": [
       "llama3.2:3b",
       "lukashabtoch/plutotext-r3-emotional:latest",
-      "mario:latest",
       "llama3-backup:latest",
+      "mario:latest",
       "llama3.2:3b-instruct-q5_K_M"
     ],
-    "tps": 6.329113924050633,
-    "lastUpdate": "2026-08-22T00:28:21.354Z",
+    "tps": 6.326611308817714,
+    "lastUpdate": "2026-08-23T00:31:15.680Z",
     "status": "success"
   },
   {
-    "server": "http://152.67.195.0:11434",
+    "server": "http://78.46.88.135:8080",
     "models": [
+      "huihui_ai/Qwen3.8-abliterated:latest",
+      "glm-5.2:cloud",
+      "gemma4:31b",
+      "qwen3.6:27b",
+      "qwen3.6:35b",
       "llama3.2:3b",
-      "llama2:latest"
+      "gemma3:27b-it-q4_K_M"
     ],
-    "tps": 4.62710941752858,
-    "lastUpdate": "2026-08-22T00:28:21.324Z",
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.706Z",
     "status": "success"
   },
   {
@@ -656,8 +689,8 @@
       "smollm:135m",
       "llama3:8b"
     ],
-    "tps": 3.228832615381354,
-    "lastUpdate": "2026-08-22T00:28:21.061Z",
+    "tps": 3.281334490517817,
+    "lastUpdate": "2026-08-23T00:31:15.528Z",
     "status": "success"
   },
   {
@@ -666,19 +699,16 @@
       "qwen2:72b"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.380Z",
+    "lastUpdate": "2026-08-23T00:31:15.794Z",
     "status": "success"
   },
   {
-    "server": "http://192.211.60.154:12000",
+    "server": "http://18.132.64.106:11434",
     "models": [
-      "hermes_admin_2026:latest",
-      "hermes_backdoor_2026:latest",
-      "llama3:8b",
-      "llama3:latest"
+      "gemma3:4b"
     ],
-    "tps": 4.45850711922911,
-    "lastUpdate": "2026-08-22T00:28:21.029Z",
+    "tps": 1.9512722508296247,
+    "lastUpdate": "2026-08-23T00:31:15.665Z",
     "status": "success"
   },
   {
@@ -690,91 +720,20 @@
       "deepseek-r1:1.5b",
       "deepseek-r1:7b"
     ],
-    "tps": 5.535227897960427,
-    "lastUpdate": "2026-08-22T00:28:21.062Z",
+    "tps": 5.564349819815271,
+    "lastUpdate": "2026-08-23T00:31:15.529Z",
     "status": "success"
   },
   {
-    "server": "http://18.132.64.106:11434",
+    "server": "http://192.211.60.154:12000",
     "models": [
-      "gemma3:4b"
+      "hermes_admin_2026:latest",
+      "hermes_backdoor_2026:latest",
+      "llama3:8b",
+      "llama3:latest"
     ],
-    "tps": 2.1301488038704295,
-    "lastUpdate": "2026-08-22T00:28:21.204Z",
-    "status": "success"
-  },
-  {
-    "server": "http://100.26.34.164:11434",
-    "models": [
-      "llama3.2:1b"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.066Z",
-    "status": "success"
-  },
-  {
-    "server": "http://139.6.56.40:11434",
-    "models": [
-      "HydraTeam/HydraB23:latest",
-      "codellama:latest",
-      "llama3.2:3b",
-      "llama3.2:latest",
-      "mistral:latest"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.245Z",
-    "status": "success"
-  },
-  {
-    "server": "http://144.76.221.151:11434",
-    "models": [
-      "huihui_ai/gpt-oss-abliterated:latest",
-      "huihui_ai/qwen3.5-abliterated:27b",
-      "qwen3-embedding:0.6b",
-      "nomic-embed-text:latest",
-      "nomic-embed-text-v2-moe:latest",
-      "mistral-medium-3.5:latest",
-      "laguna-s-2.1:latest",
-      "huihui_ai/glm-4.7-flash-abliterated:latest",
-      "huihui_ai/gemma-4-abliterated:26b",
-      "huihui_ai/qwen3.6-abliterated:27b",
-      "huihui_ai/gemma-4-abliterated:12b",
-      "llama3.2:latest",
-      "verif_sys:latest",
-      "laguna-xs-2.1:latest",
-      "qwen3.6:27b",
-      "kimi-k2.7-code:cloud",
-      "glm-5.1:cloud",
-      "glm-5.2:cloud",
-      "minimax-m2.7:cloud",
-      "minimax-m3:cloud",
-      "deepseek-v3.2:cloud",
-      "kimi-k2.6:cloud",
-      "glm-4.7:cloud",
-      "minimax-m2.5:cloud",
-      "deepseek-v4-flash:cloud",
-      "tinyllama:latest",
-      "smollm2:135m",
-      "llama3.2:3b",
-      "llama3:latest",
-      "granite4:latest",
-      "gemma3:latest",
-      "mario:latest",
-      "llama3-backup:latest",
-      "gemma3:12b",
-      "deepseek-r1:14b"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.250Z",
-    "status": "success"
-  },
-  {
-    "server": "http://16.170.155.141:11434",
-    "models": [
-      "mistral:latest"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.254Z",
+    "tps": 4.110078627591137,
+    "lastUpdate": "2026-08-23T00:31:15.471Z",
     "status": "success"
   },
   {
@@ -785,23 +744,69 @@
       "deepseek-r1:1.5b",
       "deepseek-r1:7b"
     ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.319Z",
+    "tps": 1.838015232713395,
+    "lastUpdate": "2026-08-23T00:31:15.641Z",
     "status": "success"
   },
   {
-    "server": "https://www.api.llm.wxloo.com",
+    "server": "http://3.17.61.100:11434",
     "models": [
-      "qwen3.6:27b",
-      "nomic-embed-text:latest",
-      "gemma3:4b",
-      "hf.co/reedmayhew/claude-3.7-sonnet-reasoning-gemma3-12B:Q8_0",
-      "llava:latest",
-      "codellama:7b",
-      "llama3:8b"
+      "llama3.1:8b",
+      "llama3.2:3b-instruct-q5_K_M",
+      "llama2:latest",
+      "llama3.2-vision:latest"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:21.866Z",
+    "lastUpdate": "2026-08-23T00:31:15.527Z",
+    "status": "success"
+  },
+  {
+    "server": "http://100.26.34.164:11434",
+    "models": [
+      "llama3.2:1b"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.534Z",
+    "status": "success"
+  },
+  {
+    "server": "http://139.6.56.40:11434",
+    "models": [
+      "HydraTeam/HydraB23:latest",
+      "HydraTeam/HydraB23:latest-copy-test",
+      "codellama:latest",
+      "llama3.2:3b",
+      "llama3.2:3b-copy-test",
+      "llama3.2:latest",
+      "mistral:latest"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.698Z",
+    "status": "success"
+  },
+  {
+    "server": "http://18.138.138.6:11434",
+    "models": [
+      "hf.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF:IQ4_XS",
+      "qwen3:14b",
+      "gemma3:270m",
+      "mattw/pygmalion:latest",
+      "llama3-backup:latest",
+      "mario:latest",
+      "llama3.2:latest",
+      "qwen3:8b"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.715Z",
+    "status": "success"
+  },
+  {
+    "server": "http://16.170.155.141:11434",
+    "models": [
+      "mistral:latest"
+    ],
+    "tps": 0,
+    "lastUpdate": "2026-08-23T00:31:15.721Z",
     "status": "success"
   },
   {
@@ -813,97 +818,27 @@
       "deepseek-r1:latest"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:22.209Z",
+    "lastUpdate": "2026-08-23T00:31:16.366Z",
     "status": "success"
   },
   {
-    "server": "http://211.104.171.186:11434",
+    "server": "http://35.75.132.147",
     "models": [
-      "qwen3-embedding:0.6b",
-      "nomic-embed-text:latest",
-      "nomic-embed-text-v2-moe:latest",
-      "huihui_ai/Qwen3.8-abliterated:latest",
-      "gemma4:e4b",
-      "verif_sys:latest",
-      "gpt-4o:latest",
-      "claude-3-opus:latest",
-      "gpt-4:latest",
-      "tinyllama:latest",
-      "qwen3.6:27b",
-      "kimi-k2.7-code:cloud",
-      "deepseek-v3.2:cloud",
-      "glm-4.7:cloud",
-      "kimi-k2.6:cloud",
-      "glm-5.1:cloud",
-      "minimax-m2.5:cloud",
-      "minimax-m2.7:cloud",
-      "deepseek-v4-flash:cloud",
-      "minimax-m3:cloud",
-      "glm-5.2:cloud",
-      "benedict/linkbricks-llama3.1-korean:8b",
-      "bge-m3:latest",
-      "deepseek-v4-pro:cloud",
-      "qwen3.6:latest",
-      "qwen3.6:35b",
-      "llama3.2:3b",
-      "deepseek-r1:1.5b"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:52.536Z",
-    "status": "success"
-  },
-  {
-    "server": "http://144.76.238.176:11434",
-    "models": [
-      "huihui_ai/qwen3.6-abliterated:27b",
-      "huihui_ai/gemma-4-abliterated:12b",
-      "huihui_ai/gemma-4-abliterated:26b",
-      "huihui_ai/glm-4.7-flash-abliterated:latest",
-      "huihui_ai/qwen3.5-abliterated:27b",
-      "nomic-embed-text:latest",
-      "huihui_ai/gpt-oss-abliterated:latest",
-      "laguna-s-2.1:latest",
-      "mistral-medium-3.5:latest",
-      "nomic-embed-text-v2-moe:latest",
-      "huihui_ai/Qwen3.8-abliterated:latest",
-      "laguna-xs-2.1:latest",
-      "qwen3.6:27b",
-      "qwen3.6:35b",
-      "llama3.2:3b",
-      "llama3.1:8b",
-      "llama3.1:8b-instruct-q4_K_M"
-    ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:52.458Z",
-    "status": "success"
-  },
-  {
-    "server": "http://49.7.60.132:11434",
-    "models": [
-      "huihui_ai/Qwen3.8-abliterated:latest",
       "qwen3.6:27b",
       "llama3.2:3b",
-      "smollm2:135m",
-      "deepseek-r1:1.5b",
-      "deepseek-r1:7b"
+      "llama3.2:3b-instruct-q5_K_M"
     ],
     "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:52.675Z",
+    "lastUpdate": "2026-08-23T00:31:46.571Z",
     "status": "success"
   },
   {
-    "server": "https://api.llm.wxloo.com",
+    "server": "http://221.179.69.35:49434",
     "models": [
-      "qwen3.6:27b",
-      "nomic-embed-text:latest",
-      "gemma3:4b",
-      "hf.co/reedmayhew/claude-3.7-sonnet-reasoning-gemma3-12B:Q8_0",
-      "llava:latest",
-      "codellama:7b",
-      "llama3:8b"
+      "crosery/sakura-14b-qwen2.5-v1.0-q6k:latest"
     ],
-    "tps": 0,
-    "lastUpdate": "2026-08-22T00:28:52.672Z",
+    "tps": 24.66141471776813,
+    "lastUpdate": "2026-08-23T00:31:46.751Z",
     "status": "success"
   }
 ]
