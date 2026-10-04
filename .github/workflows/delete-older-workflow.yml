@@ -2,7 +2,9 @@ name: 删除workflow，清理工作流
 
 on:
   schedule:
-    - cron: 55 23 * * *
+    - cron: 0 0 * * 1
+    #每周一北京时间8点过期的清理工作流
+
   workflow_dispatch:
 
 jobs:
